@@ -1,0 +1,4 @@
+databaseChangeLog:
+-   changeSet:
+        id: populate inventory
+        author: sajid

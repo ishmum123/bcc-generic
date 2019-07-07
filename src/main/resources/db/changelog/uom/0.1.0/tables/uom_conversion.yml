@@ -1,0 +1,45 @@
+databaseChangeLog:
+  - changeSet:
+      id: 879fdf45-5893-40a1-9da0-7f02164fe073
+      author: sajid
+      changes:
+        - createTable:
+            tableName: uom_conversion
+            columns:
+            - column:
+                name: oid
+                type: varchar(128)
+              constraints:
+                primaryKey: true
+                nullable: false
+            - column:
+                name: uom_oid_from
+                type: varchar(128)
+                constraints:
+                  nullable: false
+            - column:
+                name: uom_oid_to
+                type: varchar(128)
+                constraints:
+                  nullable: false
+            - column:
+                name: conversion_factor
+                type: numeric(20, 6)
+                constraints:
+                  nullable: false
+            - column:
+                name: decimal_scale
+                type: numeric(20)
+                constraints:
+                  nullable: true
+            - column:
+                name: rounding_mode
+                type: varchar(256)
+                constraints:
+                  nullable: true
+            - column:
+                name: is_deleted
+                type: boolean
+                defaultValue: false
+                constraints:
+                  nullable: false

@@ -20,9 +20,9 @@ public class ServiceExceptionHolder {
         }
     }
 
-    public static class UserNotFoundException extends ResourceNotFoundException {
-        public UserNotFoundException(UUID uuid) {
-            super("No User found with ID: " + uuid);
+    public static class UomNotFoundException extends ResourceNotFoundException {
+        public UomNotFoundException(String uuid) {
+            super("No Uom found with ID: " + uuid);
         }
     }
 

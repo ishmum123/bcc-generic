@@ -36,8 +36,8 @@ public class ExceptionHandlers {
     }
 
     @ResponseStatus(HttpStatus.OK)
-    @ExceptionHandler(ServiceExceptionHolder.UserNotFoundException.class)
-    public ApiErrorResponse handleUserNotFoundException(final ServiceExceptionHolder.UserNotFoundException ex) {
+    @ExceptionHandler(ServiceExceptionHolder.UomNotFoundException.class)
+    public ApiErrorResponse handleUserNotFoundException(final ServiceExceptionHolder.UomNotFoundException ex) {
         return getProcessedApiErrorResponse(new ApiErrorResponse(ex.getMessage(), ex));
     }
 

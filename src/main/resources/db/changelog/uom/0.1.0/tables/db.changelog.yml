@@ -1,0 +1,10 @@
+databaseChangeLog:
+  - include:
+      file: uom.yml
+      relativeToChangelogFile: true
+  - include:
+      file: uom_category.yml
+      relativeToChangelogFile: true
+  - include:
+      file: uom_conversion.yml
+      relativeToChangelogFile: true

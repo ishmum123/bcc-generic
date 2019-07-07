@@ -14,7 +14,7 @@ spring:
     default-schema: structuretest
     drop-first: true
     contexts: test
-    change-log: classpath:/db/changelog/db.changelog-master.yml
+    change-log: classpath:/db/changelog/uom/db.changelog-master.yml
   datasource:
     url: jdbc:postgresql://localhost:5434/structuretest
     username: postgres

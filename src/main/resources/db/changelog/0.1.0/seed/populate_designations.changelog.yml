@@ -1,9 +1,0 @@
-databaseChangeLog:
-  - changeSet:
-      id: populate designations
-      author: ishmum
-      changes:
-        - loadData:
-            file: data/designations.csv
-            relativeToChangelogFile: true
-            tableName: designations

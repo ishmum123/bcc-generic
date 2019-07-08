@@ -1,9 +1,9 @@
-package com.synesis.bcc.structure.controllers;
+package com.bcc.grp.uom.controllers;
 
-import com.synesis.bcc.structure.database.entities.Uom;
-import com.synesis.bcc.structure.helpers.dataclass.IdHolder;
-import com.synesis.bcc.structure.helpers.dataclass.UomSummary;
-import com.synesis.bcc.structure.services.UomService;
+import com.bcc.grp.uom.database.entities.Uom;
+import com.bcc.grp.uom.helpers.dataclass.IdHolder;
+import com.bcc.grp.uom.helpers.dataclass.UomSummary;
+import com.bcc.grp.uom.services.UomService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;

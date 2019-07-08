@@ -1,4 +1,4 @@
-package com.synesis.bcc.structure.database.entities;
+package com.bcc.grp.uom.database.entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;

@@ -1,11 +1,9 @@
-package com.synesis.bcc.structure.database.repositories;
+package com.bcc.grp.uom.database.repositories;
 
-import com.synesis.bcc.structure.database.entities.Uom;
+import com.bcc.grp.uom.database.entities.Uom;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
-
-import java.util.UUID;
 
 public interface UomRepository extends JpaRepository<Uom, String> {
     Iterable<Uom> findByNameEn(String nameEn);

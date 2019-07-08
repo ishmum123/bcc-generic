@@ -1,6 +1,6 @@
-package com.synesis.bcc.structure.helpers.dataclass;
+package com.bcc.grp.uom.helpers.dataclass;
 
-import com.synesis.bcc.structure.helpers.validators.annotations.ValidUomSummary;
+import com.bcc.grp.uom.helpers.validators.annotations.ValidUomSummary;
 import lombok.Data;
 
 import javax.validation.constraints.NotBlank;

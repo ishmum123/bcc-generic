@@ -1,7 +1,7 @@
-package com.synesis.bcc.structure.helpers.validators.implementations;
+package com.bcc.grp.uom.helpers.validators.implementations;
 
-import com.synesis.bcc.structure.helpers.dataclass.UomSummary;
-import com.synesis.bcc.structure.helpers.validators.annotations.ValidUomSummary;
+import com.bcc.grp.uom.helpers.dataclass.UomSummary;
+import com.bcc.grp.uom.helpers.validators.annotations.ValidUomSummary;
 import org.springframework.stereotype.Component;
 
 import javax.validation.ConstraintValidator;

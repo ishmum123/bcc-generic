@@ -1,8 +1,8 @@
-package com.synesis.bcc.structure;
+package com.bcc.grp.uom;
 
+import com.bcc.grp.uom.database.repositories.UomRepository;
+import com.bcc.grp.uom.helpers.dataclass.UomSummary;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.synesis.bcc.structure.database.repositories.UomRepository;
-import com.synesis.bcc.structure.helpers.dataclass.UomSummary;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

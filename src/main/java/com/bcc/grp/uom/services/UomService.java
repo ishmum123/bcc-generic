@@ -1,15 +1,14 @@
-package com.synesis.bcc.structure.services;
+package com.bcc.grp.uom.services;
 
-import com.synesis.bcc.structure.database.entities.Uom;
-import com.synesis.bcc.structure.database.repositories.UomRepository;
-import com.synesis.bcc.structure.helpers.dataclass.UomSummary;
-import com.synesis.bcc.structure.helpers.exceptions.ServiceExceptionHolder;
+import com.bcc.grp.uom.database.entities.Uom;
+import com.bcc.grp.uom.database.repositories.UomRepository;
+import com.bcc.grp.uom.helpers.dataclass.UomSummary;
+import com.bcc.grp.uom.helpers.exceptions.ServiceExceptionHolder;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.UUID;
 
 @RequiredArgsConstructor
 @Service

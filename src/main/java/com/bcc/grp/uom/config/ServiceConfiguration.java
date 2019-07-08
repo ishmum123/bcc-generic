@@ -1,4 +1,4 @@
-package com.synesis.bcc.structure.config;
+package com.bcc.grp.uom.config;
 
 import lombok.Getter;
 import org.springframework.beans.factory.annotation.Value;

@@ -1,4 +1,4 @@
-package com.synesis.bcc.structure.helpers.exceptions;
+package com.bcc.grp.uom.helpers.exceptions;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

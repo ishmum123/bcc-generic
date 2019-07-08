@@ -1,6 +1,7 @@
-package com.synesis.bcc.structure.helpers.validators.annotations;
+package com.bcc.grp.uom.helpers.validators.annotations;
 
-import com.synesis.bcc.structure.helpers.validators.implementations.UomSummaryValidityChecker;
+
+import com.bcc.grp.uom.helpers.validators.implementations.UomSummaryValidityChecker;
 
 import javax.validation.Constraint;
 import javax.validation.Payload;

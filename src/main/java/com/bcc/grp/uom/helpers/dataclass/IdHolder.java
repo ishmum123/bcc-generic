@@ -1,4 +1,4 @@
-package com.synesis.bcc.structure.helpers.dataclass;
+package com.bcc.grp.uom.helpers.dataclass;
 
 import lombok.Data;
 

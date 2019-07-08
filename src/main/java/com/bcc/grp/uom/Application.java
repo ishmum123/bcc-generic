@@ -1,4 +1,4 @@
-package com.synesis.bcc.structure;
+package com.bcc.grp.uom;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

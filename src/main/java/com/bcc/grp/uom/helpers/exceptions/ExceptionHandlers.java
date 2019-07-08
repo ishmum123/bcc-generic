@@ -1,6 +1,6 @@
-package com.synesis.bcc.structure.helpers.exceptions;
+package com.bcc.grp.uom.helpers.exceptions;
 
-import com.synesis.bcc.structure.config.ServiceConfiguration;
+import com.bcc.grp.uom.config.ServiceConfiguration;
 import lombok.Getter;
 import lombok.ToString;
 import org.slf4j.Logger;

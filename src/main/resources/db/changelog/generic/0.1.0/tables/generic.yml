@@ -1,0 +1,67 @@
+databaseChangeLog:
+  - changeSet:
+      id: 6da37705-85ea-4767-ab34-81400f026fd7
+      author: Ishmum Jawad Khan
+      changes:
+        - createTable:
+            tableName: generics
+            columns:
+              - column:
+                  name: oid
+                  type: varchar(128)
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: office_oid
+                  type: varchar(128)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: created_by
+                  type: varchar(128)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: created_on
+                  type: timestamp
+                  constraints:
+                    nullable: false
+              - column:
+                  name: updated_by
+                  type: varchar(128)
+              - column:
+                  name: updated_on
+                  type: timestamp
+              - column:
+                  name: is_deleted
+                  type: bool
+                  defaultValue: false
+                  constraints:
+                    nullable: false
+
+              - column:
+                  name: name_en
+                  type: varchar(256)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: name_bn
+                  type: varchar(256)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: description
+                  type: varchar(256)
+              - column:
+                  name: amount
+                  type: numeric(20, 6)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: type_oid
+                  type: varchar(128)
+                  constraints:
+                    nullable: false
+                    foreignKeyName: fk_generics_generic_types
+                    references: generic_types(oid)

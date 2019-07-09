@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: generic_type.yml
+      relativeToChangelogFile: true
+  - include:
+      file: generic.yml
+      relativeToChangelogFile: true

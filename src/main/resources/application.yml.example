@@ -9,12 +9,13 @@ spring:
         jdbc:
           lob:
             non_contextual_creation: true
-        default_schema: structure
+        default_schema: generic
   liquibase:
-    default-schema: structure
-    change-log: classpath:/db/changelog/db.changelog-master.yml
+    default-schema: generic
+    change-log: classpath:/db/changelog/generic/db.changelog-master.yml
+    drop-first: true
   datasource:
-    url: jdbc:postgresql://localhost:5432/structure
+    url: jdbc:postgresql://localhost:5432/genericdb
     username: postgres
     password: postgres
   mvc:
@@ -27,4 +28,4 @@ spring:
 # =============================================================================================
 service:
   properties:
-    short-code: STR
+    short-code: GNRC

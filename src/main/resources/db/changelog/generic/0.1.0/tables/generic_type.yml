@@ -1,0 +1,55 @@
+databaseChangeLog:
+  - changeSet:
+      id: 735e064d-86a4-40d0-b648-65e8b235b425
+      author: Ishmum Jawad Khan
+      changes:
+        - createTable:
+            tableName: generic_types
+            columns:
+              - column:
+                  name: oid
+                  type: varchar(128)
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: office_oid
+                  type: varchar(128)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: created_by
+                  type: varchar(128)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: created_on
+                  type: timestamp
+                  constraints:
+                    nullable: false
+              - column:
+                  name: updated_by
+                  type: varchar(128)
+              - column:
+                  name: updated_on
+                  type: timestamp
+              - column:
+                  name: is_deleted
+                  type: bool
+                  defaultValue: false
+                  constraints:
+                    nullable: false
+
+              - column:
+                  name: name_en
+                  type: varchar(256)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: name_bn
+                  type: varchar(256)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: description
+                  type: varchar(256)

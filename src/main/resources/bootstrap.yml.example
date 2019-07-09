@@ -1,0 +1,12 @@
+server:
+  port: 1001
+spring:
+   application:
+      name: bcc-inventory
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://172.16.26.132:8761/eureka/
+    healthcheck:
+      enabled: true
+  instance:

@@ -5,12 +5,12 @@
 
     <!--  TODO: PACKAGE NAME TO BE DECIDED  -->
 	<groupId>com.bcc.grp</groupId>
-	<artifactId>uom</artifactId>
+	<artifactId>generic</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>uom</name>
-	<description>UoM Service</description>
+	<name>generic</name>
+	<description>Generic Service</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>

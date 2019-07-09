@@ -51,8 +51,11 @@ databaseChangeLog:
                   constraints:
                     nullable: false
               - column:
-                  name: description
+                  name: short_description
                   type: varchar(256)
+              - column:
+                  name: long_description
+                  type: text
               - column:
                   name: amount
                   type: numeric(20, 6)

@@ -19,7 +19,8 @@ public class Generic {
 
     private String nameEn;
     private String nameBn;
-    private String description;
+    private String shortDescription;
+    private String longDescription;
 
     @ManyToOne
     @Where(clause = "isDeleted = FALSE")
